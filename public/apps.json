@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "image": "https://i.ibb.co/Y7W4f4n/facebook.png",
+    "description": "Connect with friends, family and people who share the same interests as you. Communicate privately, watch your favorite content, buy and sell items.",
+    "size": 55,
+    "reviews": 1200000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 }, { "name": "2 star", "count": 50000 }, { "name": "3 star", "count": 100000 }, { "name": "4 star", "count": 300000 }, { "name": "5 star", "count": 600000 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "image": "https://i.ibb.co/mS6v6fL/whatsapp.png",
+    "description": "Simple. Reliable. Private. WhatsApp from Meta is a FREE messaging and video calling app used by over 2B people worldwide.",
+    "size": 38,
+    "reviews": 1800000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 }, { "name": "2 star", "count": 20000 }, { "name": "3 star", "count": 80000 }, { "name": "4 star", "count": 260000 }, { "name": "5 star", "count": 1400000 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "image": "https://i.ibb.co/r7v9M1n/netflix.png",
+    "description": "Watch award-winning series, movies, documentaries, and stand-up specials on your favorite devices.",
+    "size": 95,
+    "reviews": 950000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 }, { "name": "2 star", "count": 30000 }, { "name": "3 star", "count": 70000 }, { "name": "4 star", "count": 200000 }, { "name": "5 star", "count": 600000 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "image": "https://i.ibb.co/0X3k4pB/chatgpt.png",
+    "description": "Get instant answers, find creative inspiration, and learn something new with OpenAI's official AI assistant.",
+    "size": 18,
+    "reviews": 450000,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 }, { "name": "2 star", "count": 5000 }, { "name": "3 star", "count": 10000 }, { "name": "4 star", "count": 80000 }, { "name": "5 star", "count": 350000 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "image": "https://i.ibb.co/M9F7zS1/spotify.png",
+    "description": "Listen to the songs you love and enjoy millions of playlists for every mood and moment.",
+    "size": 28,
+    "reviews": 2500000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 }, { "name": "2 star", "count": 50000 }, { "name": "3 star", "count": 150000 }, { "name": "4 star", "count": 400000 }, { "name": "5 star", "count": 1800000 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "CapCut",
+    "companyName": "Bytedance Pte. Ltd.",
+    "image": "https://i.ibb.co/PZ9L9pT/capcut.png",
+    "description": "Capture the moment and cut. Easy video editing for social media with amazing effects and music.",
+    "size": 130,
+    "reviews": 600000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 }, { "name": "2 star", "count": 10000 }, { "name": "3 star", "count": 40000 }, { "name": "4 star", "count": 120000 }, { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "image": "https://i.ibb.co/S3J0S5K/uber.png",
+    "description": "Request a ride and get where you're going quickly and safely. Available in thousands of cities.",
+    "size": 62,
+    "reviews": 800000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 }, { "name": "2 star", "count": 20000 }, { "name": "3 star", "count": 60000 }, { "name": "4 star", "count": 140000 }, { "name": "5 star", "count": 500000 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "image": "https://i.ibb.co/K7L5zS1/snapchat.png",
+    "description": "Share the moment with friends through disappearing photos, videos, and creative filters.",
+    "size": 68,
+    "reviews": 3200000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 }, { "name": "2 star", "count": 100000 }, { "name": "3 star", "count": 200000 }, { "name": "4 star", "count": 500000 }, { "name": "5 star", "count": 2000000 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "image": "https://i.ibb.co/YyY7zS1/pinterest.png",
+    "description": "Explore billions of ideas for recipes, home decor, style, and more. Save what inspires you.",
+    "size": 42,
+    "reviews": 1100000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 }, { "name": "2 star", "count": 20000 }, { "name": "3 star", "count": 50000 }, { "name": "4 star", "count": 200000 }, { "name": "5 star", "count": 800000 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "image": "https://i.ibb.co/VvY7zS1/discord.png",
+    "description": "Create a home for your communities and friends to talk over text, voice, and video.",
+    "size": 75,
+    "reviews": 420000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 }, { "name": "2 star", "count": 10000 }, { "name": "3 star", "count": 30000 }, { "name": "4 star", "count": 60000 }, { "name": "5 star", "count": 300000 }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Adobe Lightroom",
+    "companyName": "Adobe",
+    "image": "https://i.ibb.co/XxY7zS1/lightroom.png",
+    "description": "Powerful photo editing and camera app that empowers you in your photography journey.",
+    "size": 110,
+    "reviews": 350000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 }, { "name": "2 star", "count": 5000 }, { "name": "3 star", "count": 15000 }, { "name": "4 star", "count": 70000 }, { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "image": "https://i.ibb.co/WwY7zS1/telegram.png",
+    "description": "Pure instant messaging — simple, fast, secure, and synced across all your devices.",
+    "size": 34,
+    "reviews": 2100000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 }, { "name": "2 star", "count": 100000 }, { "name": "3 star", "count": 200000 }, { "name": "4 star", "count": 400000 }, { "name": "5 star", "count": 1200000 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "TikTok",
+    "companyName": "TikTok Ltd.",
+    "image": "https://i.ibb.co/N1j8xS1/tiktok.png",
+    "description": "Short-form mobile video that is exciting, spontaneous, and genuine.",
+    "size": 88,
+    "reviews": 5000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 }, { "name": "2 star", "count": 200000 }, { "name": "3 star", "count": 300000 }, { "name": "4 star", "count": 1000000 }, { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Microsoft Outlook",
+    "companyName": "Microsoft Corporation",
+    "image": "https://i.ibb.co/L1j8xS1/outlook.png",
+    "description": "The app that brings your email, calendar and files together in one place.",
+    "size": 45,
+    "reviews": 700000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 }, { "name": "2 star", "count": 10000 }, { "name": "3 star", "count": 30000 }, { "name": "4 star", "count": 140000 }, { "name": "5 star", "count": 500000 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Duolingo",
+    "companyName": "Duolingo",
+    "image": "https://i.ibb.co/Z1j8xS1/duolingo.png",
+    "description": "Learn a new language with the world's most-downloaded education app.",
+    "size": 32,
+    "reviews": 1500000,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 }, { "name": "2 star", "count": 10000 }, { "name": "3 star", "count": 20000 }, { "name": "4 star", "count": 150000 }, { "name": "5 star", "count": 1300000 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Zoom Workplace",
+    "companyName": "Zoom Video",
+    "image": "https://i.ibb.co/X1j8xS1/zoom.png",
+    "description": "Collaborate from anywhere with video meetings, chat, and phone calls.",
+    "size": 58,
+    "reviews": 850000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 }, { "name": "2 star", "count": 50000 }, { "name": "3 star", "count": 100000 }, { "name": "4 star", "count": 200000 }, { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "image": "https://i.ibb.co/Y1j8xS1/notion.png",
+    "description": "Your all-in-one workspace for notes, tasks, wikis, and databases.",
+    "size": 22,
+    "reviews": 120000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 }, { "name": "2 star", "count": 3000 }, { "name": "3 star", "count": 7000 }, { "name": "4 star", "count": 25000 }, { "name": "5 star", "count": 80000 }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "LinkedIn",
+    "companyName": "LinkedIn",
+    "image": "https://i.ibb.co/M1j8xS1/linkedin.png",
+    "description": "Connect with professionals, find jobs, and stay updated with industry news.",
+    "size": 48,
+    "reviews": 1100000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 }, { "name": "2 star", "count": 50000 }, { "name": "3 star", "count": 100000 }, { "name": "4 star", "count": 250000 }, { "name": "5 star", "count": 600000 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Canva",
+    "companyName": "Canva",
+    "image": "https://i.ibb.co/R1j8xS1/canva.png",
+    "description": "Design anything from logos and social media posts to presentations.",
+    "size": 35,
+    "reviews": 4500000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 }, { "name": "2 star", "count": 50000 }, { "name": "3 star", "count": 150000 }, { "name": "4 star", "count": 700000 }, { "name": "5 star", "count": 3500000 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "image": "https://i.ibb.co/V1j8xS1/trello.png",
+    "description": "Manage projects and organize anything with Trello's visual boards.",
+    "size": 26,
+    "reviews": 320000,
+    "ratingAvg": 4.4,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 }, { "name": "2 star", "count": 10000 }, { "name": "3 star", "count": 30000 }, { "name": "4 star", "count": 60000 }, { "name": "5 star", "count": 200000 }
+    ]
+  }
+]
