@@ -1,69 +1,141 @@
+// import banner from "../../public/assets/hero.png";
+
+// const Features = () => {
+//   return (
+//     <section>
+//       {/* img */}
+//       <div className="text-center">
+//         <img src={banner} alt="" />
+//       </div>
+//       {/* text */}
+//       <section className=" border-4 bg-purple-600 ">
+//         <div>
+//           <h1>Trusted by Millions, Built for You</h1>
+//         </div>
+//         <section className="flex gap-6">
+//           {/* 1 */}
+//           <div>
+//             <p>Total Downloads</p>
+//             <h1>29.6M</h1>
+//             <p>21% more than last month</p>
+//           </div>
+//           {/* 2 */}
+//           <div>
+//             <p>Total Reviews</p>
+//             <h1>906K</h1>
+//             <p>46% more than last month</p>
+//           </div>
+//           {/* 3 */}
+//           <div>
+//             <p>Active Apps</p>
+//             <h1>132+</h1>
+//             <p>31 more will Launch</p>
+//           </div>
+//         </section>
+//       </section>
+//     </section>
+//   );
+// };
+
+// export default Features;
+
 import React from "react";
-import { MapPin, Zap, Star } from "lucide-react";
-import { FaMobileAlt } from "react-icons/fa";
+// Icons import
+import { DownloadCloud, Star, Smartphone, Rocket, Zap } from "lucide-react";
+import banner from "../../public/assets/hero.png";
 
 const Features = () => {
-  const features = [
-    {
-      id: 1,
-      title: "Google Maps",
-      company: "Google LLC",
-      category: "Map & Navigation",
-      rating: 4.5,
-      icon: <MapPin className="w-10 h-10 text-white" />,
-      bg: "bg-blue-600",
-    },
-    {
-      id: 2,
-      title: "Messenger",
-      company: "Meta Platforms, Inc.",
-      category: "Communication",
-      rating: 4.8,
-      icon: <FaMobileAlt className="w-10 h-10 text-white" />,
-      bg: "bg-pink-600",
-    },
-    {
-      id: 3,
-      title: "Uber",
-      company: "Uber Technologies, Inc.",
-      category: "Ridesharing",
-      rating: 4.6,
-      icon: <Zap className="w-10 h-10 text-white" />,
-      bg: "bg-green-600",
-    },
-  ];
-
   return (
-    <section className="max-w-7xl mx-auto px-4 py-12 lg:py-20">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {features.map((feature) => (
-          <div
-            key={feature.id}
-            className={`flex items-start gap-6 p-8 rounded-3xl shadow-lg transition-transform hover:-translate-y-2 ${feature.bg} text-white`}
-          >
-            <div className="p-4 bg-white/20 rounded-2xl">{feature.icon}</div>
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold mb-1 tracking-tight">
-                {feature.title}
-              </h3>
-              <p className="text-sm font-medium text-white/80 mb-1">
-                {feature.company}
+    <section className="max-w-7xl mx-auto px-4 py-12">
+      {/* 1. Image/Banner Section */}
+      <div className="flex justify-center  px-4">
+        <img
+          src={banner}
+          alt="App Showcase"
+          className="w-full max-w-5xl h-auto object-contain rounded-3xl"
+        />
+      </div>
+
+      {/* 2. States Section (Enhanced with Background Icons) */}
+      <section className="bg-purple-600 rounded-[40px] p-10 md:p-20 text-white overflow-hidden relative">
+        {/* --- Background Floating Icons --- */}
+        <div className="absolute top-10 left-10 opacity-10 rotate-12 animate-bounce">
+          <Rocket size={80} />
+        </div>
+        <div className="absolute bottom-10 right-10 opacity-10 -rotate-12">
+          <DownloadCloud size={100} />
+        </div>
+        <div className="absolute top-1/2 left-1/4 opacity-5 rotate-45 hidden md:block">
+          <Star size={60} />
+        </div>
+        <div className="absolute top-20 right-1/4 opacity-10 animate-pulse hidden md:block">
+          <Zap size={50} />
+        </div>
+        <div className="absolute -bottom-5 left-1/2 opacity-10">
+          <Smartphone size={120} />
+        </div>
+        {/* ------------------------------- */}
+
+        {/* Content (Relative to stay above background icons) */}
+        <div className="relative z-10">
+          {/* Title */}
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
+              Trusted by Millions, <br className="md:hidden" /> Built for You
+            </h2>
+            <div className="w-24 h-1 bg-yellow-400 mx-auto mt-4 rounded-full"></div>
+          </div>
+
+          {/* Stats Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+            {/* Card 1: Total Downloads */}
+            <div className="text-center border-b md:border-b-0 md:border-r border-purple-400/50 pb-8 md:pb-0 last:border-0">
+              <p className="text-purple-100 text-sm font-medium mb-2 uppercase tracking-wider">
+                Total Downloads
               </p>
-              <div className="flex items-center gap-2 text-sm mt-3">
-                <span className="px-3 py-1 bg-white/20 rounded-full font-medium">
-                  {feature.category}
+              <h3 className="text-5xl md:text-7xl font-black mb-3 italic tracking-tighter">
+                29.6M
+              </h3>
+              <p className="text-purple-200 text-sm flex items-center justify-center gap-1">
+                <span className="bg-green-500/20 text-green-300 px-2 py-0.5 rounded text-xs font-bold">
+                  ↑ 21%
                 </span>
-                <div className="flex items-center gap-1.5 text-yellow-300">
-                  <Star className="w-4 h-4 fill-yellow-300" />
-                  <span className="font-semibold text-white">
-                    {feature.rating}
-                  </span>
-                </div>
-              </div>
+                more than last month
+              </p>
+            </div>
+
+            {/* Card 2: Total Reviews */}
+            <div className="text-center border-b md:border-b-0 md:border-r border-purple-400/50 pb-8 md:pb-0 last:border-0">
+              <p className="text-purple-100 text-sm font-medium mb-2 uppercase tracking-wider">
+                Total Reviews
+              </p>
+              <h3 className="text-5xl md:text-7xl font-black mb-3 italic tracking-tighter">
+                906K
+              </h3>
+              <p className="text-purple-200 text-sm flex items-center justify-center gap-1">
+                <span className="bg-green-500/20 text-green-300 px-2 py-0.5 rounded text-xs font-bold">
+                  ↑ 46%
+                </span>
+                more than last month
+              </p>
+            </div>
+
+            {/* Card 3: Active Apps */}
+            <div className="text-center">
+              <p className="text-purple-100 text-sm font-medium mb-2 uppercase tracking-wider">
+                Active Apps
+              </p>
+              <h3 className="text-5xl md:text-7xl font-black mb-3 italic tracking-tighter">
+                132+
+              </h3>
+              <p className="text-purple-200 text-sm">
+                <span className="font-bold text-yellow-300">31</span> more will
+                Launch
+              </p>
             </div>
           </div>
-        ))}
-      </div>
+        </div>
+      </section>
     </section>
   );
 };
