@@ -1,13 +1,8 @@
 import { Link, NavLink } from "react-router";
 // Icons
-import {
-  LayoutGrid,
-  Home,
-  Smartphone,
-  DownloadCloud,
-  Menu,
-} from "lucide-react";
+import { Home, Smartphone, DownloadCloud, Menu } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
+import logo from "../../public/assets/logo.png";
 
 const Navbar = () => {
   return (
@@ -46,12 +41,17 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Logo Section */}
+          {/* Logo Section - Navigates to Home */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="bg-blue-600 p-1.5 rounded-lg group-hover:rotate-12 transition-transform duration-300">
-              <LayoutGrid className="w-5 h-5 text-white" />
+            <div className="overflow-hidden rounded-lg group-hover:scale-110 transition-transform duration-300">
+              {/* Image Logo */}
+              <img
+                src={logo}
+                alt="HeroStack Logo"
+                className="w-8 h-8 object-contain"
+              />
             </div>
-            <span className="text-xl font-bold text-gray-900">
+            <span className="text-xl font-bold text-gray-900 tracking-tight">
               Hero<span className="text-blue-600">Stack</span>
             </span>
           </Link>
