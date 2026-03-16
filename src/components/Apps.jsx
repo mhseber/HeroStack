@@ -201,7 +201,8 @@ import {
   AlertCircle,
   ArrowUpDown,
 } from "lucide-react";
-import { Loader } from "./Loader";
+import Loader from "./Loader";
+
 // import Loader from "../components/Loader";
 
 const Apps = () => {

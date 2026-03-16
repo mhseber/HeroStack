@@ -8,7 +8,7 @@ import { BarChart, Bar, XAxis, ResponsiveContainer, Cell } from "recharts";
 import ratingIcon from "../../public/assets/icon-ratings.png";
 import downloadsIcon from "../../public/assets/icon-downloads.png";
 import reviewIcon from "../../public/assets/icon-review.png";
-import { Loader } from "../components/Loader";
+import Loader from "../components/Loader";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -35,17 +35,6 @@ const AppDetails = () => {
     };
     fetchAppDetail();
   }, [id]);
-
-  //   const handleInstall = () => {
-  //     setIsInstalled(true);
-  //     toast.success(`${app.title} Installed Successfully!`, {
-  //       style: {
-  //         borderRadius: "16px",
-  //         background: "#333",
-  //         color: "#fff",
-  //       },
-  //     });
-  //   };
 
   const handleInstall = () => {
     // 1. LocalStorage theke purano data ana
