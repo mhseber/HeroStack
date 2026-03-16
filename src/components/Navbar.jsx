@@ -104,7 +104,7 @@ const Navbar = () => {
           {/* Contribution Button */}
           <div className="flex items-center">
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/mhseber/HeroStack"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-gray-900 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-gray-800 transition-all active:scale-95"
