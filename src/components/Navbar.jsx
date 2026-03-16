@@ -51,7 +51,7 @@ const Navbar = () => {
                 className="w-8 h-8 object-contain"
               />
             </div>
-            <span className="text-xl font-bold text-gray-900 tracking-tight">
+            <span className="text-2xl font-extrabold text-gray-900 tracking-tight">
               Hero<span className="text-blue-600">Stack</span>
             </span>
           </Link>
